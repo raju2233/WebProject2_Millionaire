@@ -1,0 +1,67 @@
+ 
+* {
+	font-size: 12pt;
+	font-family: "Verdana", "Geneva", sans-serif;
+}
+
+body{
+    background-image: url('images/signupback.jpeg');
+    background-repeat: no-repeat;
+    background-size: 100%;
+    resize: none;
+}
+
+form{
+    width: 30em;   
+    margin: 0;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+      margin-left: auto;
+      margin-right: auto;
+   
+}
+legend {
+	background-color: white;
+	border: 2px outset gray;
+	padding: 0.2em;
+}
+
+fieldset {
+    width: 30em;
+	background-color:#214fc6;
+	border: 2px outset gray;
+	border-radius: 10px;
+    
+}
+fieldset strong,
+.field strong,
+fieldset label.left,
+fieldset .column {
+	float: left;
+	width: 11em;
+}
+
+input[type="submit"] {
+	background-color: white;
+	font-size: 120%;
+	font-weight: bold;
+    border-radius: 5px;
+    padding: 5px;
+}
+
+a{
+    color: white;
+    text-decoration: none;
+
+}
+
+a:hover{
+    color: black;
+    border: 2px solid white;
+    padding : 3px;
+    background-color: white;
+    border-radius: 5px;
+
+}
