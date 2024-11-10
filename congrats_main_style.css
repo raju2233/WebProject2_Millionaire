@@ -1,0 +1,31 @@
+body{
+    background-image: url('images/congrats.gif');
+    background-repeat: no-repeat;
+    background-size: 100%;
+    resize: none;
+}
+a {
+    text-decoration: none;
+    border:2px solid white;
+    border-radius: 5px;
+    padding:5px;
+    background-color: white;
+    color:black;
+    margin-left: 45%;
+    font-size:x-large;
+}   
+img{
+    height: 30%;
+    width: 20%;
+    margin-left: 40%;
+}
+h1{
+    color: purple;
+    font-size: 35pt;
+    margin-left: 40%;
+}
+h2{
+    color: purple;
+    font-size: 25pt;
+    margin-left: 40%;
+}
